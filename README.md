@@ -7,12 +7,12 @@ Only Give Permission In your Telegram Personal Channel
 ```
 Please fork this repository don't import code
 Made with Python3
-(C) @DforDarkAngel
+(C) @save_bad
 Copyright permission under GNU GENERAL PUBLIC LICENSE
 ```
 
 ### Deploy on Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jijinr/Frwdit)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Badcaption/dxautox)
 
 ## HOW TO DEPLOY YOUTUBE TUTORIAL
 
