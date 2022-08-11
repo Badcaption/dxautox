@@ -42,7 +42,7 @@ async def run(bot, message):
                 chat_id=TO,
                 from_chat_id=FROM,
                 parse_mode="md",       
-                caption=Translation.CAPTION.format(file_name),
+                caption=Translation.CAPTION.format,
                 message_id=message.message_id
             )
             files_count += 1
@@ -53,7 +53,7 @@ async def run(bot, message):
                 chat_id=TO,
                 from_chat_id=FROM,
                 parse_mode="md",       
-                caption=Translation.CAPTION.format(file_name),
+                caption=Translation.CAPTION.format,
                 message_id=message.message_id
             )
             files_count += 1
@@ -63,7 +63,7 @@ async def run(bot, message):
             pass
    # await m.delete()
     buttons = [[
-        InlineKeyboardButton('📜 Support Group', url='https://t.me/DxHelpDesk')
+        InlineKeyboardButton('📜 Support Group', url='https://t.me/dxautox')
     ]] 
     reply_markup = InlineKeyboardMarkup(buttons)
     await m.edit(
