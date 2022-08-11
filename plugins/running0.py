@@ -22,7 +22,7 @@ async def run(bot, message):
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     m = await bot.send_message(
-        text="<i>File Forwording Started😉</i>",
+        text="<i>File Forwording Started</i>",
         reply_markup=reply_markup,
         chat_id=message.chat.id
     )
