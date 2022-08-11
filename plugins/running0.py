@@ -42,8 +42,8 @@ async def run(bot, message):
                 chat_id=TO,
                 from_chat_id=FROM,
                 parse_mode="md",       
-                caption=Translation.CAPTION.
-                message_id=message
+                caption=Translation.CAPTION.format(caption),
+                message_id=message.message_id
             )
             files_count += 1
             await asyncio.sleep(1)
@@ -53,8 +53,8 @@ async def run(bot, message):
                 chat_id=TO,
                 from_chat_id=FROM,
                 parse_mode="md",       
-                caption=Translation.CAPTION.
-                message_id=message
+                caption=Translation.CAPTION.format(caption),
+                message_id=message.message_id
             )
             files_count += 1
             await asyncio.sleep(1)
